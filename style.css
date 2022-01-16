@@ -36,12 +36,66 @@ body{
 }
 
 .quote-area .quote{
-    font-size:large;
+    font-size:22px;
     text-align: center;
     word-break: break-all;
 }
 
 .content .author{
     display: flex;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
     justify-content: flex-end;
+
+}
+
+.wrapper .buttons{
+    border-top: 1px solid #ccc ;
+
+}
+
+.buttons .features{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.features ul{
+    display: flex;
+}
+
+.features ul li{
+    list-style: none;
+    margin: 0 50px;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     color: peachpuff;
+    border-radius: 20px;
+    border: 3px solid peachpuff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.features ul li:hover{
+    color:white; 
+    background: peachpuff;
+}
+
+.features button{
+ border:none;
+ outline:none; 
+ color: black;
+ cursor: pointer;
+ font-style: 16px;
+ padding: 14px 22px;
+ border-radius: 30px;
+ background: peachpuff;
+ font-family: monospace;
+
+
 }
