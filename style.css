@@ -87,7 +87,8 @@ body{
 }
 
 .features button{
- border:none;
+ border:solid;
+ border-width: 2px; 
  outline:none; 
  color: black;
  cursor: pointer;
@@ -99,3 +100,4 @@ body{
 
 
 }
+
